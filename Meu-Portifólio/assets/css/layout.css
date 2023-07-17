@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
+	/* border: solid red; */
 }
 
 html {
@@ -80,7 +81,7 @@ nav a:hover{
 
 main {
 	flex: 20 1 50%;
-	height: 350px;
+	height: 220px;
 	margin: 5% 0 5% 5%;
 }
 
@@ -138,10 +139,21 @@ p {
 aside {
 	animation: slideBottom 1.5s ease-in-out;
 	animation-delay: 0.5s;
-	margin: 9% 5% 4% 5%;
+	margin: 2% 5% 4% 5%;
 	font-size: 1rem;
 	flex: 20 1 35%;
 	height: 275px;
+}
+
+.foto{
+	height: 190px;
+	width: 185px;
+	background-image: url(../img/MinhaFoto.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: solid white;
+	border-radius: 50%;
+	margin: auto;
 }
 
 .sobre {
