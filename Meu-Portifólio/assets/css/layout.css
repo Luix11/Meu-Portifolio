@@ -8,7 +8,7 @@
 
 html {
 	scroll-behavior: smooth;
-	background-color: rgb(23, 23, 63);
+	background-color: black;
 }
 
 body {
@@ -145,8 +145,8 @@ aside {
 }
 
 .foto{
-	height: 190px;
-	width: 185px;
+	height: 200px;
+	width: 195px;
 	background-image: url(../img/MinhaFoto.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -343,8 +343,8 @@ a {
 
 @media only screen and (min-width: 1024px) {
 	body {
-		margin-left: 15%;
-		margin-right: 15%;
+		width: 50%;
+		margin: auto;
 	}
 
 	.home {
@@ -389,7 +389,6 @@ a {
 	}
 
 	nav a {
-		/* Margem de todos os lados. */
 		margin: 3%;
 	}
 }
