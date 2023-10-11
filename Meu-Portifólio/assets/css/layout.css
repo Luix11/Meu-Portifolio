@@ -148,6 +148,7 @@ aside {
 	height: 200px;
 	width: 195px;
 	background-image: url(../img/MinhaFoto.jpg);
+	box-shadow: 0 2px 6px 10px rgba(0, 0, 0, 0.4);
 	background-repeat: no-repeat;
 	background-size: cover;
 	border: solid white;
@@ -237,6 +238,8 @@ background-image: url(../img/firebase.png);
 }
 
 .card{
+	background-color: #0c1022;
+	box-shadow: 0 2px 6px 10px rgba(0, 0, 0, 0.4);
 	border: solid white;
 	border-radius: 10px;
 	padding: 8px;
